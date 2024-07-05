@@ -1,0 +1,5 @@
+#Run Video Inferencing
+darknet detector demo ASL.data yolov2-obj2.cfg backup/pothole_voc/yolov2-obj2_best.weights -ext_output obj/Pothole\ testing.mp4
+
+#Run Image Inferencing
+darknet detector test ASL.data yolov2-obj2.cfg backup/pothole_voc/yolov2-obj2_best.weights
